@@ -6,14 +6,14 @@ Node module as a object factory. Ask in the console and Write the answers into a
 
 
 
-![](https://github.com/llucbrell/jaskit/captura.png)
+![](https://github.com/llucbrell/jaskit/blob/master/captura.png)
 
 
 
 ## Install
 
 ```
-$ npm install JaSkIt
+$ npm install jaskit
 ```
 
 
