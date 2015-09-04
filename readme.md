@@ -6,7 +6,7 @@ Node module as a object factory. Ask in the console and Write the answers into a
 
 
 
-![](https://github.com/llucbrell/JaSkIt/captura.png)
+![](https://github.com/llucbrell/jaskit/captura.png)
 
 
 
