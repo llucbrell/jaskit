@@ -27,8 +27,8 @@ var chalkColor= chalk.red;
 var jaskit= require('JaSkIt');
 var cli= jaskit('promt', color);
 
-jaskit.ask('This is my question');     
-      jaskit.ask('This is other question');
+jaskit.header('This is my question');     
+      jaskit.ask('This is other que');
       jaskit.ask('This is another question');
    jaskit.end();
 ```
@@ -56,12 +56,28 @@ program
     //body...
     jaskit.ask('This is my question');     
       jaskit.ask('This is other question');
-      jaskit.ask('This is another question'); //change the last
-      jaskit.change(questionId, objectFormat);
+      jaskit.ask('This is another question');
       jaskit.to('name.txt');
    jaskit.end();
     
   }); 
+```
+
+## Change format!
+
+Change the text of the user response with a JavaScript object and regular expressions.
+
+```js
+var formatFor1={before: "", replace:/fine/ , put:'Ok' , after:""};
+
+
+cli.ask("Hi.. How'r you?");
+      cli.header("JaSkIt.. Java-Script-Interface CLI");
+      cli.ask('Can I ask you somethin?');
+    cli.change(1, formatFor1);   
+      cli.ask('How about continue asking you..?');
+      cli.to('file.JSON');   
+      cli.end();
 ```
 
 
