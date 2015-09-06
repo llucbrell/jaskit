@@ -92,13 +92,13 @@ function writeFile(name, last){
 					process.exit();
 				}
 				else{			
-					console.log(myStyle(prompt+name+' correctly writed'))	;
+					console.log(myStyle(name+' correctly writed'))	;
 				    process.exit();
 				}	
 			});
 	}
 	else{		
-		console.log(myStyle(prompt+name+' not writed, try it again'));	
+		console.log(myStyle(name+' not writed, try it again'));	
 		process.exit();
 	}
 }
@@ -133,7 +133,7 @@ else{
 		questions[index-1].answer=text;	
 		//console.log(questions);
 			console.log(myStyle(prompt+'Is every question all right?'));
-			console.log(myStyle(prompt+'y or n to write them on a file'));
+			console.log(myStyle('y or n to write them on a file'));
 			endLoop();			
 		}
 	}	
