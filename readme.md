@@ -65,8 +65,11 @@ Change the user response with a JavaScript object and regular expressions.
 
 ###Format object
 >before property -- Add something before the user's answer.
+
 >replace property -- Regular expression to match with the user'
+
 >put property -- the text or characthers to put in place.
+
 >after proprety -- Add something after the user's answer.
 
 ```js
