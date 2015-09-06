@@ -18,5 +18,14 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llucbrell/jaskit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/llucbrell/jaskit/issues"
+  },
+  "homepage": "https://github.com/llucbrell/jaskit#readme"
 }
