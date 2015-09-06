@@ -1,6 +1,6 @@
 {
   "name": "jaskit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ask questions from CLI and Write answers to a file",
   "main": "index.js",
   "scripts": {
