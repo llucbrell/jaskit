@@ -83,7 +83,7 @@ cli.ask("Hi.. How'r you?");
  cli.change(1, formatFor1); //params(questionID, formatObjct)  
       cli.ask("How about continue asking you..?");
       cli.to("file.JSON");   
-      cli.end();
+      cli.end("Every little thing is gonna be alright!\n    y or n");
 ```
 
 

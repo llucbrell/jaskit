@@ -13,13 +13,14 @@ module.exports =function(prom, colr){
  var bool=false;
  var fname;
  var confirm;
+ var confQuestion;
 
  return{
  header: function(string){header= myStyle(string);},
  	ask: function(string){ questions.push({quest: string});},
  change: function(callback, number){change(callback, number);    },
      to: function(name){  bool=true; fname=name;           },
-    end: function(){runCLI();                              }                              
+    end: function(string){ confQuestion= string; runCLI(); }                              
  };
 
 
@@ -131,9 +132,8 @@ else{
 		}
 		else{
 		questions[index-1].answer=text;	
-		//console.log(questions);
-			console.log(myStyle(prompt+'Is every question all right?'));
-			console.log(myStyle('y or n to write them on a file'));
+		    console.log();
+			console.log(myStyle(confQuestion||'Is every question all right? \n y or n to write them on a file'));
 			endLoop();			
 		}
 	}	
